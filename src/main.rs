@@ -1,9 +1,22 @@
 use actix_web::{get, App, HttpResponse, HttpServer, Responder};
 use serde::Serialize;
 use chrono::{DateTime, Utc};
+use sqlx::{PgPool, postgres::PgQueryResult};
+use dotenv::dotenv;
+use std::env; 
 
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {
+    dotenv().ok();
+
+    let database_url = env::var("DATABASE_URL")
+        .expect("DATABASE_URL must be set in .env");
+
+//    let pool = PgPool::connect(&database_url)
+//        .await
+//        .expect("Failed to connect to the database.");
+
+
     HttpServer::new(|| {
         App::new()
         .service(hello)
