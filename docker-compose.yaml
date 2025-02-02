@@ -22,11 +22,11 @@ services:
       - db
 
 
-networks:
-  private_net:
-    driver: bridge  # Ensures the db is isolated from public network
-  bridge:
-    external: true
+        #networks:
+        #  private_net:
+        #    driver: bridge  # Ensures the db is isolated from public network
+        #  bridge:
+        #    external: true
 
 volumes:
   pgdata:  # Stores the PostgreSQL data

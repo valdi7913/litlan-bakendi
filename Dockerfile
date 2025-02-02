@@ -1,11 +1,30 @@
-# 1. This tells docker to use the Rust official image
-FROM rust:1.84.1
+# Use Rust official image
+FROM rust:1.84.1 AS builder
 
-# 2. Copy the files in your machine to the Docker image
-COPY ./ ./
+# Set the working directory inside the container
+WORKDIR /usr/src/app
 
-# Build your program for release
+# Copy Cargo files first (to leverage Docker caching)
+COPY Cargo.toml Cargo.lock ./
+
+# Copy the source code
+COPY . .
+
+# Build the Rust project in release mode
 RUN cargo build --release
 
+# Use a smaller runtime image for final deployment
+FROM rust:1.84.1 
+
+# Set working directory inside the final container
+WORKDIR /app
+
+# Copy the built binary from the builder stage
+COPY --from=builder /usr/src/app/target/release/litlan-backend /app/
+
+# Expose the necessary port (if applicable)
+EXPOSE 8080  
+
 # Run the binary
-CMD ["./target/release/litlan-backend"]
+CMD ["./litlan-backend"]
+
