@@ -1,0 +1,156 @@
+<LexicalResource xmlns="http://localhost/xmlschema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost/xmlschema/lmf_ISLEX.xsd">
+  <GlobalInformation>
+    <feat att="languageCoding" val="ISO:639-3"/>
+    <title lang="en">Islex - Icelandic-Scandinavian multilingual dictionary</title>
+    <publisher>
+      <publisher>The Árni Magnússon Institute for Icelandic Studies</publisher>
+      <uri>https://arnastofnun.is</uri>
+    </publisher>
+    <licenseInfo>
+      <name>CC BY-NC-ND 4.0</name>
+      <uri>https://creativecommons.org/licenses/by-nc-nd/4.0/</uri>
+    </licenseInfo>
+    <dateIssued>2022-11-21</dateIssued>
+  </GlobalInformation>
+  <Lexicon>
+    <feat att="language" val="isl"/>
+    <LexicalEntry id="islex_57404">
+      <feat att="partOfSpeech" val="skst"/>
+      <Lemma>
+        <feat att="writtenForm" val="A"/>
+      </Lemma>
+      <Sense>
+        <feat att="writtenForm" val="A"/>
+        <Equivalent language="da" writtenForm="Ø"/>
+        <Equivalent language="da" writtenForm="Ø."/>
+        <Equivalent language="no-b" writtenForm="Ø"/>
+        <Equivalent language="no-b" writtenForm="øst"/>
+        <Equivalent language="no-n" writtenForm="A"/>
+        <Equivalent language="no-n" writtenForm="aust"/>
+        <Equivalent language="se" writtenForm="O"/>
+        <Equivalent language="se" writtenForm="o."/>
+        <Equivalent language="se" writtenForm="ost"/>
+        <Equivalent language="se" writtenForm="ostlig"/>
+        <Equivalent language="se" writtenForm="Ö"/>
+        <Equivalent language="se" writtenForm="ö."/>
+        <Equivalent language="se" writtenForm="östra"/>
+        <Equivalent language="fo" writtenForm="eystur"/>
+        <Equivalent language="fo" writtenForm="Ey"/>
+        <Equivalent language="fi" writtenForm="it."/>
+        <Equivalent language="fi" writtenForm="itäinen"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="islex_2212">
+      <feat att="partOfSpeech" val="n"/>
+      <Lemma>
+        <feat att="writtenForm" val="abbadís"/>
+      </Lemma>
+      <WordForm>
+        <feat att="writtenForm" val="abbadís"/>
+        <feat att="grammaticalGender" val="f"/>
+      </WordForm>
+      <Sense>
+        <feat att="writtenForm" val="abbadís"/>
+        <Definition language="is" text="forstöðukona nunnuklausturs"/>
+        <Equivalent language="da" writtenForm="abbedisse"/>
+        <Equivalent language="no-b" writtenForm="abbedisse"/>
+        <Equivalent language="no-n" writtenForm="abbedisse"/>
+        <Equivalent language="se" writtenForm="abbedissa"/>
+        <Equivalent language="fo" writtenForm="abbadissa"/>
+        <Equivalent language="fi" writtenForm="abbedissa"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="islex_2213">
+      <feat att="partOfSpeech" val="v"/>
+      <Lemma>
+        <feat att="writtenForm" val="abbast"/>
+      </Lemma>
+      <Sense>
+        <feat att="writtenForm" val="abbast"/>
+      </Sense>
+      <Sense>
+        <feat att="writtenForm" val="abbast"/>
+        <text language="is">abbast upp á &lt;hana&gt;</text>
+        <Definition language="is" text="áreita &lt;hana&gt;"/>
+        <Equivalent language="da" writtenForm="genere &lt;hende&gt;"/>
+        <Equivalent language="da" writtenForm="chikanere &lt;hende&gt;"/>
+        <Equivalent language="da" writtenForm="forulempe &lt;hende&gt;"/>
+        <Equivalent language="da" writtenForm="være nærgående over for &lt;hende&gt;"/>
+        <Equivalent language="no-b" writtenForm="egle seg innpå &lt;henne&gt;"/>
+        <Equivalent language="no-b" writtenForm="forulempe &lt;henne&gt;"/>
+        <Equivalent language="no-b" writtenForm="trakassere &lt;henne&gt;"/>
+        <Equivalent language="no-n" writtenForm="egla seg innpå &lt;henne&gt;"/>
+        <Equivalent language="no-n" writtenForm="forulempa &lt;henne&gt;"/>
+        <Equivalent language="no-n" writtenForm="trakassera &lt;henne&gt;"/>
+        <Equivalent language="se" writtenForm="trakassera &lt;henne&gt;"/>
+        <Equivalent language="fo" writtenForm="gera seg inn á &lt;hana&gt;"/>
+        <Equivalent language="fi" writtenForm="ahdistella &lt;häntä&gt;"/>
+        <Equivalent language="fi" writtenForm="hätyytellä &lt;häntä&gt;"/>
+        <SenseExample>
+          <text language="is">hann abbaðist upp á stúlkur á ballinu</text>
+          <Equivalent language="da" writtenForm="han var nærgående over for nogle piger til festen"/>
+          <Equivalent language="no-b" writtenForm="han eglet seg innpå jentene på festen"/>
+          <Equivalent language="no-n" writtenForm="han egla seg innpå jentene på festen"/>
+          <Equivalent language="se" writtenForm="han var påflugen mot en del flickor på festen"/>
+          <Equivalent language="fo" writtenForm="hann gjørdi seg inn á gentur í ballinum"/>
+          <Equivalent language="fi" writtenForm="hän hätyytteli tyttöjä juhlissa"/>
+        </SenseExample>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="islex_50352">
+      <feat att="partOfSpeech" val="n"/>
+      <Lemma>
+        <feat att="writtenForm" val="aborri"/>
+      </Lemma>
+      <WordForm>
+        <feat att="writtenForm" val="aborri"/>
+        <feat att="grammaticalGender" val="m"/>
+      </WordForm>
+      <Sense>
+        <feat att="writtenForm" val="aborri"/>
+        <Definition language="is" text="fisktegund (Perca fluviatilis)"/>
+        <Equivalent language="da" writtenForm="aborre"/>
+        <Equivalent language="no-b" writtenForm="abbor"/>
+        <Equivalent language="no-n" writtenForm="åbor"/>
+        <Equivalent language="se" writtenForm="abborre"/>
+        <Equivalent language="fo" writtenForm="áburra"/>
+        <Equivalent language="fi" writtenForm="ahven"/>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="islex_2214">
+      <feat att="partOfSpeech" val="adj"/>
+      <Lemma>
+        <feat att="writtenForm" val="abstrakt"/>
+      </Lemma>
+      <Sense>
+        <feat att="writtenForm" val="abstrakt"/>
+        <text language="is">málverk</text>
+        <Definition language="is" text="sem líkist ekki raunverulegum hlut"/>
+        <Equivalent language="da" writtenForm="abstrakt"/>
+        <Equivalent language="no-b" writtenForm="abstrakt"/>
+        <Equivalent language="no-n" writtenForm="abstrakt"/>
+        <Equivalent language="se" writtenForm="abstrakt"/>
+        <Equivalent language="fo" writtenForm="abstraktur"/>
+        <Equivalent language="fi" writtenForm="abstrakti"/>
+      </Sense>
+      <Sense>
+        <feat att="writtenForm" val="abstrakt"/>
+        <text language="is">óhlutbundinn</text>
+        <Definition language="is" text="sem varðar hugmyndir fremur en hluti"/>
+        <Equivalent language="da" writtenForm="abstrakt"/>
+        <Equivalent language="da" writtenForm="immateriel"/>
+        <Equivalent language="da" writtenForm="ikke-materiel"/>
+        <Equivalent language="no-b" writtenForm="abstrakt"/>
+        <Equivalent language="no-b" writtenForm="immateriell"/>
+        <Equivalent language="no-n" writtenForm="abstrakt"/>
+        <Equivalent language="no-n" writtenForm="immateriell"/>
+        <Equivalent language="se" writtenForm="abstrakt"/>
+        <Equivalent language="se" writtenForm="immateriell"/>
+        <Equivalent language="fo" writtenForm="óítøkiligur"/>
+        <Equivalent language="fo" writtenForm="úrtøkiligur"/>
+        <Equivalent language="fi" writtenForm="abstrakti"/>
+        <Equivalent language="fi" writtenForm="käsitteellinen"/>
+      </Sense>
+    </LexicalEntry>
+  </Lexicon>
+</LexicalResource>
