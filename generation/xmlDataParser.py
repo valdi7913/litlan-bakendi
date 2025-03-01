@@ -73,7 +73,7 @@ def read_dictionary(file_path):
     result = list(zip(lemmas, definitions))
     return result
 
-file_path = "ISLEX_dict.xml"
+file_path = "../ISLEX_dict.xml"
 # file_path = "islex_test.xml"
 
 result = read_dictionary(file_path)
