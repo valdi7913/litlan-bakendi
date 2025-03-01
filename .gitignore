@@ -1,5 +1,6 @@
 .env
 my_venv
+venv/
 
 data/ISLEX_dict.xml
 
