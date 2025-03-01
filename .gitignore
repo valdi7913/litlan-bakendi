@@ -1,3 +1,7 @@
-/target
-
 .env
+my_venv
+venv/
+
+data/ISLEX_dict.xml
+
+__pycache__/
